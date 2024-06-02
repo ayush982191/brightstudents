@@ -1,5 +1,4 @@
-import React from 'react';
-
+ 
 interface SameCardInterface {
     imgsrc: string | undefined;
     word: string | null ;

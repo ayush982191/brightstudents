@@ -12,7 +12,7 @@ interface ShowCardsProps {
   button: string; 
 }
 
-const ShowCards: React.FC<ShowCardsProps> = ({ setPage, button }) => {
+const ShowCards: React.FC<ShowCardsProps> = ({ button }) => {
   return (
     <div className="relative w-full h-screen bg-cover bg-center" style={{ backgroundImage: `url(${background})` }}>
       <button

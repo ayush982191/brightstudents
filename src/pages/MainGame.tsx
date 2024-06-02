@@ -85,7 +85,7 @@ const MainGame = () => {
       <img src={background} className="absolute inset-0 w-full h-full object-cover z-[-1]" alt="background" />
       <div className="relative flex gap-20 items-center justify-center h-full">
         <div className="grid grid-cols-3 gap-5">
-          {filterFruitCard.map((card, idx) => (
+          {filterFruitCard.map((_, idx) => (
             <div key={idx} onClick={() => handleRedCardFlip(idx)}>
               <RedFruitCard fruit={fruitImageArray[idx]} isFlipped={redCardIndex === idx} />
             </div>
