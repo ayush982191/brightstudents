@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import ReactCardFlip from "react-card-flip";
 import heartcard from "../assets/blueHeartCard.png";
 
